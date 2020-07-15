@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CounterCallAPI</class>
+ <widget class="QDialog" name="CounterCallAPI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>609</width>
+    <height>673</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Counter CallAPI number and dialouts</string>
+  </property>
+  <widget class="QTextBrowser" name="output_info">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>133</y>
+     <width>591</width>
+     <height>531</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="found_dialouts_2">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>9</y>
+     <width>591</width>
+     <height>56</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Найти Автообзвоны</string>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Введите token CallAPI:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="token_enter"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="found_dialouts">
+      <property name="text">
+       <string>Поиск</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QGroupBox" name="get_info_dialouts">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>71</y>
+     <width>591</width>
+     <height>56</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Получить информацию об автообзвонах</string>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>Введите номер автообзвона:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="dialout"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="get_info_dialout">
+      <property name="text">
+       <string>Получить информацию</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
